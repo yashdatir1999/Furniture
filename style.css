@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+}
+body{
+    background-color: lightgray;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vmax;
+}
+nav >h1{
+    font-weight: 900;
+    font-size: 3vmax;
+}
+nav >ul{
+    display: flex;
+    list-style: none;
+    gap: 2vmax;
+    /* background-color: red; */
+    /* padding: 1vmax; */
+}
+nav >ul >li{
+    /* background-color: pink; */
+    padding: 1vmax;
+    font-weight: 700;
+}
+nav >ul >li:hover{
+    /* background-color: rgba(255, 255, 255, 0.658); */
+    box-shadow: 0 0 0.5vmax rgba(255, 255, 255, 0.658);
+    color: white;
+    border-radius: 0.5vmax;
+}
+.page1{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.page1-img{
+    margin-top: 3vmax;
+    height: 100vh;
+    width: 90%;
+    border-radius: 0.3vmax;
+    border: 2vmax solid lightgray;
+    box-shadow: 0 0 1.5vmax lightgray;
+    /* background-color:red; */
+    background-image: url(https://i.pinimg.com/564x/02/1f/83/021f8327bdcb14da930d956eb4d51f15.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+}
+.page1-img-overlay{
+    height: 91.5vh;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.596);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page1-img-overlay >p{
+    text-align: center;
+    padding: 1.5vmax 0;
+}
+.page1-img-overlay >button{
+    padding: 1vmax 2vmax;
+    border-radius: 0.5vmax;
+    font-weight: 900;
+    transition: all ease 0.5s;
+}
+.page1-img-overlay >button:hover{
+    background-color: gray;
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+    /* background-color: palegoldenrod; */
+    margin-top: 15vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page2-contener{
+    height: 55vh;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.page2-contener-part1, .page2-contener-part2, .page2-contener-part3{
+    height: 60vh;
+    width: 30%;
+    /* background-color: olivedrab; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page2-contener-part1 >h1, .page2-contener-part2 >h1, .page2-contener-part3 >h1{
+    color: white;
+    background-color: rgb(22, 22, 22);
+    padding: 1vmax 1.7vmax;
+    font-size: 3vmax;
+    margin-bottom: 1vmax;
+}
+.page2-contener-part1 >h2, .page2-contener-part2 >h2, .page2-contener-part3 >h2{
+    margin-top: 1vmax 0;
+    font-weight: 900;
+}
+.page2-contener-part1 >h4, .page2-contener-part2 >h4, .page2-contener-part3 >h4{
+    font-size: 1.5vmax;
+    font-weight: 700;
+}
+.page2-contener-part1 >p, .page2-contener-part2 >p, .page2-contener-part3 >p{
+    text-align: center;
+    margin-top: 0.5vmax;
+}
+.page2-headdings{
+    height: 35vh;
+    width: 90%;
+    background-color: rgb(179, 175, 175);
+    border-radius: 0.5vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page2-headdings >h1{
+    margin: 0.5vmax 0;
+}
+.page2-headdings >h3{
+    margin: 0.5vmax 0;
+}
+
+/* =================== PAGE-2 COMPLETE ===================== */
+/* =================== PAGE-3 START ===================== */
+
+.page3{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.page3-headding{
+    height: 10vh;
+    width: 90%;
+    /* background-color: palegreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+.page3-images{
+    height: 40vh;
+    width: 85%;
+    margin-top: 2vmax;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.page3-img1{
+    height: 40vh;
+    width: 27%;
+    border: 2vmax solid white;
+    /* background-color: yellowgreen; */
+    background-image: url(https://i.pinimg.com/564x/26/7e/66/267e6674a4fbecf78398ff7de04b048b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5vmax;
+}
+.page3-img2{
+    height: 40vh;
+    border: 2vmax solid white;
+    width: 27%;
+    background-image: url(https://i.pinimg.com/564x/e6/50/78/e65078e77c69dfd6abf95f18b04ae55e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5vmax;
+    /* background-color: yellowgreen; */
+}
+.page3-img3{
+    height: 40vh;
+    border: 2vmax solid white;
+    width: 27%;
+    background-image: url(https://i.pinimg.com/736x/fd/5f/f9/fd5ff9c2bb6e1f0c569493d4f139fe3d.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5vmax;
+    background-size: cover;
+    /* background-color: yellowgreen; */
+}
+.page3-img4{
+    height: 40vh;
+    border: 2vmax solid white;
+    width: 27%;
+    background-image: url(https://i.pinimg.com/564x/8c/f8/56/8cf856969c73f4fea3b8880d672461df.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5vmax;
+    background-size: cover;
+    /* background-color: yellowgreen; */
+}
+.page3-img5{
+    height: 40vh;
+    border: 2vmax solid white;
+    width: 27%;
+    background-image: url(https://i.pinimg.com/236x/3c/cb/b1/3ccbb12ba9911ec906d415320311c077.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5vmax;
+    background-size: cover;
+    /* background-color: yellowgreen; */
+}
+.page3-img6{
+    height: 40vh;
+    border: 2vmax solid white;
+    width: 27%;
+    background-image: url(https://i.pinimg.com/564x/ce/69/01/ce690160f09deaf390db2ce835e88733.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5vmax;
+    background-size: cover;
+    /* background-color: yellowgreen; */
+}
+.page3-img-hedding{
+    height: 5vh;
+    width: 85%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.page3-img1-hedding, .page3-img2-hedding, .page3-img3-hedding{
+    width: 27%;
+    background-color: white;
+    text-align: center;
+}
+.page3-contener{
+    margin-top: 2vmax;
+    height: 30vh;
+    width: 85%;
+    /* background-color: rosybrown; */
+    display: flex;
+    justify-content: space-between;
+}
+.page3-part1, .page3-part2, .page3-part3{
+    width: 27%;
+    height: 30vh;   
+    /* background-color: orange; */
+}
+.page3-part1 >button, .page3-part2 >button, .page3-part3 >button{
+    margin-top: 2vmax;
+    padding: 0.8vmax 1.5vmax;
+    border-radius: 0.5vmax;
+    border: none;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    font-weight: 700;
+    transition: all ease 1s;
+}
+.page3-part1 >button:hover{
+    background-color: white;
+    font-weight: 700;
+    color: black;
+}
+.page3-part2 >button:hover{
+    background-color: white;
+    font-weight: 700;
+    color: black;
+}
+.page3-part3 >button:hover{
+    background-color: white;
+    font-weight: 700;
+    color: black;
+}
+
+.page3 >hr{
+    margin-top: 5vh;
+    width: 90%;
+    border: 0.1vmax solid gray;
+}
+footer{
+    margin-top: 5vh;
+    height: 20vh;
+    width: 85%;
+    
+    /* background-color: rebeccapurple; */
+}
+.footer-top{
+    /* background-color: greenyellow; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+.footer-top >ul{ 
+    display: flex;
+    list-style: none;
+    gap: 2vmax;
+}
+.footer-top >ul >li{
+    font-size: 1.5vmax;
+}
+.footer-top >i{
+    font-size: 2vmax;
+    background-color: white;
+    box-shadow: 0 0 0.2vmax black;
+    height: 4vmax;
+    padding: 1vmax;
+    border-radius: 5vmax;
+}
+.footer-buttom{
+    height: 10vh;
+    width: 90%;
+    /* background-color: peru; */
+}
+.footer-buttom >ul{
+    display: flex;
+    gap: 3vmax;
+    list-style: none;
+}
