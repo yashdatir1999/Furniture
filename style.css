@@ -243,6 +243,7 @@ nav >ul >li:hover{
     background-repeat: no-repeat;
     border-radius: 0.5vmax;
     background-size: cover;
+    /* padding-bottom: 5vmax; */
     /* background-color: yellowgreen; */
 }
 .page3-img-hedding{
@@ -257,6 +258,8 @@ nav >ul >li:hover{
     width: 27%;
     background-color: white;
     text-align: center;
+    transform: translateY(-1vmax);
+    padding-bottom: 3vmax;
 }
 .page3-contener{
     margin-top: 2vmax;
