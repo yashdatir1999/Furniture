@@ -309,8 +309,9 @@ footer{
     margin-top: 5vh;
     height: 20vh;
     width: 85%;
-    
-    /* background-color: rebeccapurple; */
+    padding: 1vmax;
+    color: whitesmoke;
+    background-color: black;
 }
 .footer-top{
     /* background-color: greenyellow; */
@@ -330,8 +331,8 @@ footer{
 }
 .footer-top >i{
     font-size: 2vmax;
-    background-color: white;
-    box-shadow: 0 0 0.2vmax black;
+    background-color: black;
+    box-shadow: 0 0 0.2vmax rgba(245, 245, 245, 0.708);
     height: 4vmax;
     padding: 1vmax;
     border-radius: 5vmax;
